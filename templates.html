@@ -4,12 +4,14 @@
   </head>
   <body>
     <script>
-      $(function(){
-        var perRow = 3
-        var w = $(window).width() / perRow
-        $('img').css({width: w + 'px'})
-        
-      })
+      var f = function(){
+        $(function(){
+          var perRow = 3
+          var w = $(window).width() / perRow
+          $('img').css({width: w + 'px'})
+          
+        })
+      }
       
     </script>
    
