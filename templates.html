@@ -1,9 +1,17 @@
 <html>
   <head>
-    
+    <script src='http://minifiedjs.com/download/minified-legacyie.js'></script>
   </head>
   <body>
-    
+    <script>
+      $(function(){
+        var perRow = 3
+        var w = $(window).width() / perRow
+        $('img').css({width: w + 'px'})
+        
+      })
+      
+    </script>
    
                     <img src="./templates_files/template-1-small.jpg" width="200px;" style="cursor:pointer; margin-right: 7px; margin-bottom: 15px; border: 1px solid #CCC;  border-radius: 13px;" onclick="getTemplate(&#39;1&#39;);">
                    
